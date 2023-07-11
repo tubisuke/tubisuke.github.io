@@ -180,7 +180,7 @@ params:
       - title: "路線バスの到着時間予測"
         school:
           name: "[paper]"
-          url: "http://hdl.handle.net/10297/00027445"
+          url: "https://shizuoka.repo.nii.ac.jp/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=12492&item_no=1&page_id=13&block_id=21"
         featuredLink:
           enable: true
           name: "Presentation materials"
