@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JavaScript on Akira Nakada&#39;s Portfolio</title>
+    <link>https://tubisuke.github.io/tags/javascript/</link>
+    <description>Recent content in JavaScript on Akira Nakada&#39;s Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Mon, 19 Jun 2023 15:42:51 +0900</lastBuildDate><atom:link href="https://tubisuke.github.io/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>キャンパスペイ便利システムの構築</title>
+      <link>https://tubisuke.github.io/blogs/post01/</link>
+      <pubDate>Mon, 19 Jun 2023 15:42:51 +0900</pubDate>
+      
+      <guid>https://tubisuke.github.io/blogs/post01/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
