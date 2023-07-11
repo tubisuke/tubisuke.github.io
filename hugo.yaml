@@ -1,0 +1,259 @@
+baseURL: "https://tubisuke.github.io"
+languageCode: "ja-jp"
+title: "Akira Nakada's Portfolio"
+theme: hugo-profile
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+Paginate: 3
+enableRobotsTXT: true
+# disqusShortname: your-disqus-shortname
+# googleAnalytics: G-MEASUREMENT_ID
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+Menus:
+  main:
+    - identifier: blog
+      name: BLOG
+      title: Blog posts
+      url: /blogs
+      weight: 1
+    #Dropdown menu
+    # - identifier: dropdown
+    #   title: Example dropdown menu
+    #   name: Dropdown
+    #   weight: 3
+    # - identifier: dropdown1
+    #   title: example dropdown 1
+    #   name: example 1
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 1
+    # - identifier: dropdown2
+    #   title: example dropdown 2
+    #   name: example 2
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 2
+
+
+params:
+  title: "Akira Nakada's Pages"
+  description: Akira Nakada's Portfolio Pages
+  # staticPath: ""  # The path to serve the static files from
+  favicon: "/fav.png"
+
+  # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
+  # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
+  # Note the lack of "" in true, it should be of boolean type.
+  useBootstrapCDN: false
+
+  # If you want to load dynamically responsive images from Cloudinary
+  # This requires your images to be uploaded + hosted on Cloudinary
+  # Uncomment and change YOUR_CLOUD_NAME to the Cloud Name in your Cloudinary console
+  # cloudinary_cloud_name: "YOUR_CLOUD_NAME"
+
+  # Whether the fade animations on the home page will be enabled
+  animate: true
+
+  theme:
+    # disableThemeToggle: true
+    # defaultTheme: "light" # dark
+
+  font:
+    fontSize: 1rem # default: 1rem
+    fontWeight: 400 # default: 400
+    lineHeight: 1.5 # default: 1.5
+    textAlign: left # default: left
+
+  # color preference
+  # color:
+  #   textColor:
+  #   secondaryTextColor:
+  #   backgroundColor:
+  #   secondaryBackgroundColor:
+  #   primaryColor:
+  #   secondaryColor:
+
+  #   darkmode:
+  #     textColor:
+  #     secondaryTextColor:
+  #     backgroundColor:
+  #     secondaryBackgroundColor:
+  #     primaryColor:
+  #     secondaryColor:
+
+  # If you want to customize the menu, you can change it here
+  navbar:
+    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    # showBrandLogo: false # Show brand logo in nav bar | default is true
+    brandName: "Akira Nakada's Pages" # Brand name for the brand | default is the title variable
+    disableSearch: false
+    # searchPlaceholder: "Search"
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: false
+      disableContact: false
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Hi, my name is"
+    title: "Akira Nakada."
+    subtitle: "Welcome👋"
+    content: "I specialize in natural language processing（**NLP**）at [Kano Laboratory](https://kanolab.net)."
+    bottomImage:
+      enable: true
+    # roundImage: true # Make hero image circular | default false
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/tubisuke
+        - icon: fab fa-twitter
+          url: https://twitter.com/tubisuke
+        
+  # About
+  about:
+    enable: true
+    title: "ABOUT ME"
+    image: "/images/ICON_2.png"
+    content: |-
+      I am a 4th student in the Department of Information Science at Shizuoka University's Faculty of Informatics. 
+
+      I am currently doing research on natural language processing at [Kano Laboratory](https://kanolab.net) .
+
+    skills:
+      enable: true
+      title: "My skills are listed below:"
+      items:
+        - "Atcoder（[Max: 1091](https://atcoder.jp/users/tubi)）"
+
+  # Experience
+  experience:
+    enable: true
+    title: "WORK EXPERIENCE"
+    items:
+      - job: "Infrastructure Engineer（Internsip）"
+        company: "GMO Internet Group"
+        companyUrl: "https://www.gmo.jp/"
+        date: "Aug 2022 - (5days)"
+        featuredLink:
+          enable: false
+          name: "View the project"
+          url: "https://example.com"
+        content: ""
+
+
+  # Education
+  education:
+    enable: true
+    title: "PUBLICATIONS"
+    index: false
+    items:
+      - title: "名詞役割入れ替えに頑健な日本語含意関係認識"
+        school:
+          name: "[paper]"
+          url: "https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/P4-4.pdf"
+        date: "2023"
+        content: 雨宮正弥, 増川哲太, **<u>仲田明良</u>**, 狩野芳伸（2023）,「名詞役割入れ替えに頑健な日本語含意関係認識」,『言語処理学会第29回年次大会 (NLP2023)』
+      - title: "ツイートテキストデータによるリツイート数予測とその要因分析"
+        school:
+          name: "[paper]"
+          url: "https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/A10-2.pdf"
+        date: "2023"
+        content: 増川哲太, 雨宮正弥, **<u>仲田明良</u>**, 高須遼, 狩野芳伸（2023）,「ツイートテキストデータによるリツイート数予測とその要因分析」,『言語処理学会第29回年次大会 (NLP2023)』
+      - title: "路線バスの到着時間予測"
+        school:
+          name: "[paper]"
+          url: "http://hdl.handle.net/10297/00027445"
+        featuredLink:
+          enable: true
+          name: "Presentation materials"
+          url: "data/路線バス到着時間の予測概要.pdf"
+
+        date: "2019"
+        content: 中村光伴, **<u>仲田明良</u>**（2019）,「路線バスの到着時間予測」,『情報学シンポジウム2019 』
+
+  # Achievements
+  achievements:
+    enable: true
+    title: "AWARDS/CERTFIATES"
+    items:
+      - title: 応用情報技術者試験(AP)合格
+        content: Implemented in April 2020
+        url: https://www.ipa.go.jp/shiken/kubun/ap.html
+
+      - title: 静岡大学 情報学シンポジウム2019 情報学部長賞
+        content: 中村 光伴, 仲田 明良（2019）「路線バスの到着時間予測」,『情報学シンポジウム2019』
+        url: https://sutv.shizuoka.ac.jp/video/170/2318
+
+      - title: 静岡大学 情報学シンポジウム2019 ジュニア部門優秀発表賞
+        content: 中村 光伴, 仲田 明良（2019）「路線バスの到着時間予測」,『情報学シンポジウム2019』
+        url: https://sutv.shizuoka.ac.jp/video/170/2318
+
+      - title: 基本情報技術者試験(FE)合格
+        content: Implemented in April 2018
+        url: https://www.ipa.go.jp/shiken/kubun/fe.html
+        
+  # projects
+  projects:
+    enable: true
+    title: "PROJECTS"
+    items:
+      - title: Shizuoka University CO-OP Site Convenience System
+        content: System for more convenient use of the Shizuoka University CO-OP e-money that "Campus Pay" using contactless IC card reader/writer "PaSoRi".
+        image: /images/projects/CanpaspaySystem.png
+        badges:
+          - "Python"
+          - "Javascipt"
+          - "HTML"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/tubisuke/CanpaspaySystem
+
+  #Contact
+  contact:
+    enable: true
+    title: "CONTACT"
+    email: anakada@kanolab.net
+    btnName: Mail me
+    # formspree:
+    #   enable: true # `contact.email` value will be ignored
+    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
+    #   emailCaption: "Enter your email address"
+    #   messageCaption: "Enter your message here"
+
+  # List pages like blogs and posts
+  listPages:
+    disableFeaturedImage: true
+
+  # Single pages like blog and post
+  singlePages:
+    readTime:
+      enable: true
+      content: "min read"
+    scrollprogress:
+      enable: true
+
+  # For translations
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "All rights reserved"
+    pageNotFound: "Page not found"
+    emailText: "Check out this site"
