@@ -217,7 +217,7 @@ params:
     items:
       - title: Shizuoka University CO-OP Site Convenience System
         content: System for more convenient use of the Shizuoka University CO-OP e-money that "Campus Pay" using contactless IC card reader/writer "PaSoRi".
-        image: /images/projects/CanpaspaySystem.png
+        image: /images/projects/project01.jpg
         badges:
           - "Python"
           - "Javascipt"
@@ -237,6 +237,20 @@ params:
     #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
     #   emailCaption: "Enter your email address"
     #   messageCaption: "Enter your message here"
+
+  footer:
+    recentPosts:
+      path: "blogs"
+      count: 3
+      title: Recent Posts
+      enable: true
+      disableFeaturedImage: false
+    socialNetworks:
+      github: https://github.com
+      linkedin: https://linkedin.com
+      twitter: https://twitter.com
+      instagram: https://instagram.com
+      facebook: https://facebook.com
 
   # List pages like blogs and posts
   listPages:

@@ -7,6 +7,8 @@ author: "Akira Nakada"
 tags:
   - Python
   - JavaScript
+
+image: /images/blogs/post01.jpg
 description: ""
 toc: 
 ---
