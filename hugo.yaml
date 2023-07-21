@@ -254,7 +254,7 @@ params:
 
   # List pages like blogs and posts
   listPages:
-    disableFeaturedImage: true
+    disableFeaturedImage: false
 
   # Single pages like blog and post
   singlePages:
@@ -271,3 +271,8 @@ params:
     copyright: "All rights reserved"
     pageNotFound: "Page not found"
     emailText: "Check out this site"
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"
