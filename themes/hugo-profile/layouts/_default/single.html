@@ -1,5 +1,6 @@
 {{ define "head" }}
 <meta name="description" content="{{ .Params.description }}">
+<meta property="og:image" content="{{ .Params.image }}" />
 <link rel="stylesheet" href="{{.Site.Params.staticPath}}/css/single.css">
 
 <!-- fontawesome -->
@@ -33,7 +34,6 @@
           </div>
           {{ if .Params.image }}
           <div class="featured-image">
-            <meta property="og:image" content="{{ .Params.image }}" />
             <img class="img-fluid" src="{{ .Params.image }}" alt="{{ .Title }}">
           </div>
           {{ end }}
