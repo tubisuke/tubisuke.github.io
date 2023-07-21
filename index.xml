@@ -6,7 +6,16 @@
     <description>Recent content on Akira Nakada&#39;s Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 19 Jun 2023 15:42:51 +0900</lastBuildDate><atom:link href="https://tubisuke.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Jul 2023 22:15:06 +0900</lastBuildDate><atom:link href="https://tubisuke.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>猫の迷路ゲームの作成</title>
+      <link>https://tubisuke.github.io/blogs/post02/</link>
+      <pubDate>Fri, 21 Jul 2023 22:15:06 +0900</pubDate>
+      
+      <guid>https://tubisuke.github.io/blogs/post02/</guid>
+      <description>実行環境 デモ動画 動画を再生するにはvideoタグをサポートしたブラウザが必要です。</description>
+    </item>
+    
     <item>
       <title>キャンパスペイ便利システムの構築</title>
       <link>https://tubisuke.github.io/blogs/post01/</link>
