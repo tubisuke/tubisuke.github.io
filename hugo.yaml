@@ -165,6 +165,9 @@ params:
     title: "PUBLICATIONS"
     index: false
     items:
+      - title: "打ち言葉に特化させた学習手法を用いた親密度推定モデル"
+        date: "2023"
+        content: <u>**仲田明良**</u>, 狩野芳伸（2023）,「打ち言葉に特化させた学習手法を用いた親密度推定モデル」,『NLP若手の会（YANS）第18回シンポジウム』
       - title: "名詞役割入れ替えに頑健な日本語含意関係認識"
         school:
           name: "[paper]"
