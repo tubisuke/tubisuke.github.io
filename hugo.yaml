@@ -142,6 +142,7 @@ params:
       title: "My skills are listed below:"
       items:
         - "Atcoder（[Max: 1091](https://atcoder.jp/users/tubi)）"
+        - "Kaggle (&#129351;0 &#129352;0 &#129353;1)"
 
   # Experience
   experience:
@@ -167,7 +168,7 @@ params:
     items:
       - title: "打ち言葉に特化させた学習手法を用いた親密度推定モデル"
         date: "2023"
-        content: <u>**仲田明良**</u>, 狩野芳伸（2023）,「打ち言葉に特化させた学習手法を用いた親密度推定モデル」,『NLP若手の会（YANS）第18回シンポジウム』
+        content: <u>**仲田明良**</u>, 狩野芳伸（2023）,「打ち言葉に特化させた学習手法を用いた親密度推定モデル」,『NLP若手の会（YANS）第18回シンポジウム』, **[奨励賞]**
       - title: "名詞役割入れ替えに頑健な日本語含意関係認識"
         school:
           name: "[paper]"
@@ -197,6 +198,10 @@ params:
     enable: true
     title: "AWARDS/CERTFIATES"
     items:
+      - title: NLP若手の会（YANS）第18回シンポジウム 奨励賞
+        content: 仲田明良, 狩野芳伸（2023）,「打ち言葉に特化させた学習手法を用いた親密度推定モデル」,『NLP若手の会（YANS）第18回シンポジウム』
+        url: https://twitter.com/yans_official/status/1697181116862751023?s=20
+
       - title: 応用情報技術者試験(AP)合格
         content: Implemented in April 2020
         url: https://www.ipa.go.jp/shiken/kubun/ap.html
