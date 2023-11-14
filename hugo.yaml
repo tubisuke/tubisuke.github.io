@@ -126,7 +126,9 @@ params:
           url: https://github.com/tubisuke
         - icon: fab fa-twitter
           url: https://twitter.com/tubisuke
-        
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/anakada/
+      
   # About
   about:
     enable: true
