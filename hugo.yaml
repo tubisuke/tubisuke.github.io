@@ -207,24 +207,24 @@ params:
     title: "AWARDS/CERTFIATES"
     items:
       - title: NTCIR-17 Best Oral Presentation Award
-        content: Akira Nakada, Yoshinobu Kano（2023）,「KIS’s Stance Classification Model at the NTCIR-17 QA Lab-PoliInfo-4」,『Proceedings of the 17th NTCIR Conference on Evaluation of Information Access Technologies』
+        content: The 17th NTCIR Conference on Evaluation of Information Access Technologies
         url: http://research.nii.ac.jp/ntcir/ntcir-17/awards.html
       - title: NTCIR-17 Best Poster Presentation Award
-        content: Akira Nakada, Yoshinobu Kano（2023）,「KIS’s Stance Classification Model at the NTCIR-17 QA Lab-PoliInfo-4」,『Proceedings of the 17th NTCIR Conference on Evaluation of Information Access Technologies』
+        content: The 17th NTCIR Conference on Evaluation of Information Access Technologies
         url: http://research.nii.ac.jp/ntcir/ntcir-17/awards.html
       - title: NLP若手の会（YANS）第18回シンポジウム 奨励賞
-        content: 仲田明良, 狩野芳伸（2023）,「打ち言葉に特化させた学習手法を用いた親密度推定モデル」,『NLP若手の会（YANS）第18回シンポジウム』
+        content: NLP若手の会（YANS）第18回シンポジウム
         url: https://yans.anlp.jp/entry/award
       - title: 応用情報技術者試験(AP)合格
         content: June 2021,合格率：24.0% 
         url: https://www.ipa.go.jp/shiken/kubun/ap.html
 
       - title: 静岡大学 情報学シンポジウム2019 情報学部長賞
-        content: 中村 光伴, 仲田 明良（2019）「路線バスの到着時間予測」,『情報学シンポジウム2019』
+        content: 静岡大学 情報学シンポジウム2019
         url: https://www.inf.shizuoka.ac.jp/news/detail.html?CN=154405
 
       - title: 静岡大学 情報学シンポジウム2019 ジュニア部門優秀発表賞
-        content: 中村 光伴, 仲田 明良（2019）「路線バスの到着時間予測」,『情報学シンポジウム2019』
+        content: 静岡大学 情報学シンポジウム2019
         url: https://www.inf.shizuoka.ac.jp/news/detail.html?CN=154405
         
       - title: 情報技術検定1級合格
