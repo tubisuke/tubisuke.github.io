@@ -170,36 +170,36 @@ params:
     items:
       - title: "KIS’s Stance Classification Model at the NTCIR-17 QA Lab-PoliInfo-4"
         date: "2023"
-        content: <u>**Akira Nakada**</u>, Yoshinobu Kano（2023）,「KIS’s Stance Classification Model at the NTCIR-17 QA Lab-PoliInfo-4」,『Proceedings of the 17th NTCIR Conference on Evaluation of Information Access Technologies』, **[Best Oral Presentation Award]**, **[Best Poster Presentation Award]**
-        school:
-          name: "[paper]"
-          url: "http://research.nii.ac.jp/ntcir/workshop/OnlineProceedings17/pdf/ntcir/02-NTCIR17-QALAB-NakadaA.pdf"
+        content: |-
+          <u>**Akira Nakada**</u>, Yoshinobu Kano（2023）,「KIS’s Stance Classification Model at the NTCIR-17 QA Lab-PoliInfo-4」,『Proceedings of the 17th NTCIR Conference on Evaluation of Information Access Technologies』, **[Best Oral Presentation Award]**, **[Best Poster Presentation Award]**
+          
+          [[paper]](http://research.nii.ac.jp/ntcir/workshop/OnlineProceedings17/pdf/ntcir/02-NTCIR17-QALAB-NakadaA.pdf) | 
+          [[poster]](https://research.nii.ac.jp/ntcir/workshop/OnlineProceedings17/pdf/ntcir/02-NTCIR17-QALAB-NakadaA_poster.pdf) |
+          [[slides]](https://research.nii.ac.jp/ntcir/workshop/OnlineProceedings17/pdf/ntcir/02-NTCIR17-QALAB-NakadaA_slides.pdf)
       - title: "打ち言葉に特化させた学習手法を用いた親密度推定モデル"
         date: "2023"
-        content: <u>**仲田明良**</u>, 狩野芳伸（2023）,「打ち言葉に特化させた学習手法を用いた親密度推定モデル」,『NLP若手の会（YANS）第18回シンポジウム』, **[奨励賞]**
-      - title: "名詞役割入れ替えに頑健な日本語含意関係認識"
-        school:
-          name: "[paper]"
-          url: "https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/P4-4.pdf"
-        date: "2023"
-        content: 雨宮正弥, 増川哲太, **<u>仲田明良</u>**, 狩野芳伸（2023）,「名詞役割入れ替えに頑健な日本語含意関係認識」,『言語処理学会第29回年次大会 (NLP2023)』
-      - title: "ツイートテキストデータによるリツイート数予測とその要因分析"
-        school:
-          name: "[paper]"
-          url: "https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/A10-2.pdf"
-        date: "2023"
-        content: 増川哲太, 雨宮正弥, **<u>仲田明良</u>**, 高須遼, 狩野芳伸（2023）,「ツイートテキストデータによるリツイート数予測とその要因分析」,『言語処理学会第29回年次大会 (NLP2023)』
-      - title: "路線バスの到着時間予測"
-        school:
-          name: "[paper]"
-          url: "https://shizuoka.repo.nii.ac.jp/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=12492&item_no=1&page_id=13&block_id=21"
-        featuredLink:
-          enable: true
-          name: "Presentation materials"
-          url: "data/路線バス到着時間の予測概要.pdf"
+        content: |-
+          <u>**仲田明良**</u>, 狩野芳伸（2023）,「打ち言葉に特化させた学習手法を用いた親密度推定モデル」,『NLP若手の会（YANS）第18回シンポジウム』, **[奨励賞]**
 
+          [[poster]](data/YANS2023_親密度推定モデル.pdf)
+      - title: "名詞役割入れ替えに頑健な日本語含意関係認識"
+        date: "2023"
+        content: |-
+          雨宮正弥, 増川哲太, **<u>仲田明良</u>**, 狩野芳伸（2023）,「名詞役割入れ替えに頑健な日本語含意関係認識」,『言語処理学会第29回年次大会 (NLP2023)
+          
+          [[paper]](https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/P4-4.pdf)
+      - title: "ツイートテキストデータによるリツイート数予測とその要因分析"
+        date: "2023"
+        content: |-
+          増川哲太, 雨宮正弥, **<u>仲田明良</u>**, 高須遼, 狩野芳伸（2023）,「ツイートテキストデータによるリツイート数予測とその要因分析」,『言語処理学会第29回年次大会 (NLP2023)』
+
+          [[paper]](https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/A10-2.pdf)
+      - title: "路線バスの到着時間予測（高校三年次課題研究）"
         date: "2019"
-        content: 中村光伴, **<u>仲田明良</u>**（2019）,「路線バスの到着時間予測」,『情報学シンポジウム2019 』, **[情報学部長賞]**,  **[ジュニア部門優秀発表賞]**
+        content: |-
+          中村光伴, **<u>仲田明良</u>**（2019）,「路線バスの到着時間予測」,『情報学シンポジウム2019 』, **[情報学部長賞]**,  **[ジュニア部門優秀発表賞]**
+
+          [[paper link]](https://shizuoka.repo.nii.ac.jp/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=12492&item_no=1&page_id=13&block_id=21) | [[slides]](data/路線バス到着時間の予測概要.pdf)
 
   # Achievements
   achievements:
