@@ -168,10 +168,12 @@ params:
     title: "PUBLICATIONS"
     index: false
     items:
-      - title: "Style SimSCE: SNSユーザ同一性に基づく対照学習によるスタイル類似性を捉えた文ベクトルの獲得"
+      - title: "Style SimCSE: SNSユーザ同一性に基づく対照学習によるスタイル類似性を捉えた文ベクトルの獲得"
         date: "2024"
         content: |-
-          <u>**仲田明良**</u>, 狩野芳伸（2024）,「Style SimSCE: SNSユーザ同一性に基づく対照学習によるスタイル類似性を捉えた文ベクトルの獲得」,『言語処理学会第30回年次大会（NLP2024）』    
+          <u>**仲田明良**</u>, 狩野芳伸（2024）,「<s>Style SimSCE</s> Style SimCSE: SNSユーザ同一性に基づく対照学習によるスタイル類似性を捉えた文ベクトルの獲得」,『言語処理学会第30回年次大会（NLP2024）』
+
+          [[paper]](https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/P2-18.pdf)    
       - title: "同一ハッシュタグ投稿に着目した対照学習によるトピック類似性を捉えた文ベクトルの獲得"
         date: "2024"
         content: |-
