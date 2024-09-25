@@ -151,23 +151,40 @@ params:
     enable: true
     title: "WORK EXPERIENCE"
     items:
+      - job: "Engineer（Internsip）"
+        company: "Nikkei Inc"
+        companyUrl: "https://hack.nikkei.com/"
+        date: "Sep-2024-5days"
+        featuredLink:
+          enable: true
+          name: "info"
+          url: "https://hack.nikkei.com/internJobs/2024_summer/"
+        content: ""
+
       - job: "Infrastructure Engineer（Internsip）"
         company: "GMO Internet Group"
         companyUrl: "https://www.gmo.jp/"
-        date: "Aug 2022 - (5days)"
+        date: "Aug-2022-5days"
         featuredLink:
           enable: false
           name: "View the project"
           url: "https://example.com"
         content: ""
-
-
+        
   # Education
   education:
     enable: true
     title: "PUBLICATIONS"
     index: false
     items:
+      - title: "世論調査集積法による日本における世論ムードの測定"
+        date: "2024"
+        content: |-
+          三輪洋文, <u>**仲田明良**</u>, 狩野芳伸（2024）,「世論調査集積法による日本における世論ムードの測定」,『日本政治学会2024年度研究大会』
+      - title: "STaMP: 個人の性格や政治的立場等の多面的特性と紐づくSNS データの構築及び文章スタイルによる個人特性予測"
+        date: "2024"
+        content: |-
+          福畠汐音, <u>**仲田明良**</u>, 佐橋優人, 増川哲太, 三輪洋文, 野中尚人, 木下翔太郎, 岸本泰士郎, 五十嵐彰, 岡久太郎, 狩野芳伸（2024）,「STaMP: 個人の性格や政治的立場等の多面的特性と紐づくSNSデータの構築及び文章スタイルによる個人特性予測」,『言語処理学会第30回年次大会（NLP2024）』
       - title: "Style SimCSE: SNSユーザ同一性に基づく対照学習によるスタイル類似性を捉えた文ベクトルの獲得"
         date: "2024"
         content: |-
