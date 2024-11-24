@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java on Akira Nakada&#39;s Portfolio</title>
+    <link>https://tubisuke.github.io/tags/java/</link>
+    <description>Recent content in Java on Akira Nakada&#39;s Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Fri, 21 Jul 2023 22:15:06 +0900</lastBuildDate><atom:link href="https://tubisuke.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>猫の迷路ゲームの作成</title>
+      <link>https://tubisuke.github.io/blogs/post02/</link>
+      <pubDate>Fri, 21 Jul 2023 22:15:06 +0900</pubDate>
+      
+      <guid>https://tubisuke.github.io/blogs/post02/</guid>
+      <description>はじめに 今回作成したのは，猫の迷路ゲームです． このゲームは，大学1年時の「プログラミング」という授業の課題で作成したものになります． JavaFXを利用した迷路ゲームのテンプレートが配布され，それを元にグループごとにアレンジを加えて作成するというものでした． 技術スタック Java JavaFX デモ動画 以下に，作成した猫の迷路ゲームのデモ動画を掲載します． 最短経路を表示したり，BGMを流したりなどのオリジナル機能を盛り込みました． 敵を作ったのも僕たちのチームだけのアイデアでした（懐かしい）． 動画を再生するにはvideoタグをサポートしたブラウザが必要です。
+まとめ 大学に入って最初のグループワーク（大学1年次）で作成したゲームです．なので，個人的にも色々大変で思い出深い作品です． 全体で評価において2位を獲得したのもいい思い出です． たしか20チームくらいあったと思います． </description>
+    </item>
+    
+  </channel>
+</rss>

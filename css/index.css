@@ -515,6 +515,87 @@ header .navbar.animate {
     color: var(--text-secondary-color) !important;
 }
 
+/* Certificates */
+#certificates h3 {
+    color: var(--text-secondary-color) !important;
+}
+
+#certificates .card {
+    cursor: context-menu;
+    background-color: var(--secondary-color) !important;
+    border-radius: 1rem;
+    box-shadow: 0 0 36px rgba(0,0,0,0.1);
+    /* transform: translate3d(0, 0, 0); */
+    transition: box-shadow .2s linear,opacity .2s linear;
+    border: 2px solid transparent;
+}
+
+#certificates a.card {
+    cursor: alias;
+    text-decoration: none; /* 下線を削除 */
+}
+
+#certificates .card h5 {
+    color: var(--text-color) !important;
+    opacity: 0.9;
+}
+
+#certificates .card:hover {
+    border: 2px solid var(--text-color);
+    transition: .3s;
+}
+
+#certificates .card:focus {
+    border: 2px solid var(--text-color);
+    transition: .3s;
+}
+
+#certificates .card-text {
+    background-color: var(--secondary-color) !important;
+    color: var(--text-secondary-color) !important;
+}
+
+/* School Achievements */
+
+#school h3 {
+    color: var(--text-secondary-color) !important;
+}
+
+#school .card {
+    cursor: context-menu;
+    background-color: var(--secondary-color) !important;
+    border-radius: 1rem;
+    box-shadow: 0 0 36px rgba(0,0,0,0.1);
+    /* transform: translate3d(0, 0, 0); */
+    transition: box-shadow .2s linear,opacity .2s linear;
+    border: 2px solid transparent;
+}
+
+#school a.card {
+    cursor: alias;
+    text-decoration: none; /* 下線を削除 */
+}
+
+#school .card h5 {
+    color: var(--text-color) !important;
+    opacity: 0.9;
+}
+
+#school .card:hover {
+    border: 2px solid var(--text-color);
+    transition: .3s;
+}
+
+#school .card:focus {
+    border: 2px solid var(--text-color);
+    transition: .3s;
+}
+
+#school .card-text {
+    background-color: var(--secondary-color) !important;
+    color: var(--text-secondary-color) !important;
+}
+
 /* contact */
 
 #contact h3 {

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>研究 on Akira Nakada&#39;s Portfolio</title>
+    <link>https://tubisuke.github.io/tags/%E7%A0%94%E7%A9%B6/</link>
+    <description>Recent content in 研究 on Akira Nakada&#39;s Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Sun, 24 Nov 2024 18:38:45 +0900</lastBuildDate><atom:link href="https://tubisuke.github.io/tags/%E7%A0%94%E7%A9%B6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2023年度を振り返って</title>
+      <link>https://tubisuke.github.io/blogs/post05/</link>
+      <pubDate>Sun, 24 Nov 2024 18:38:45 +0900</pubDate>
+      
+      <guid>https://tubisuke.github.io/blogs/post05/</guid>
+      <description>はじめに 2024年度に入って結構経ちますが，改めて2023年度について振り返ってみようと思います（執筆途中）． 就活用の研究紹介と未来の自分・後輩のために． 個人的に，2023年度は研究面で色々なことに挑戦した一年でした． 参加した学会 2023年度に参加した学会は，以下の4つです． NLP若手の会第18回シンポジウム (YANS2023) 2023/8/29 - 2023/8/31 仲田明良, 狩野芳伸（2023）,「打ち言葉に特化させた学習手法を用いた親密度推定モデル」,『NLP若手の会（YANS）第18回シンポジウム』 NTCIR-17 カンファレンス 2023/12/12 - 2023/12/15 Akira Nakada, Yoshinobu Kano（2023）,「KIS’s Stance Classification Model at the NTCIR-17 QA Lab-PoliInfo-4」,『Proceedings of the 17th NTCIR Conference on Evaluation of Information Access Technologies』 第16回データ工学と情報マネジメントに関するフォーラム（DEIM2024） 2024/2/28 - 2024/3/1 2024/3/4 - 2024/3/5 仲田明良, 狩野芳伸（2024）,「同一ハッシュタグ投稿に着目した対照学習によるトピック類似性を捉えた文ベクトルの獲得」,『第16回データ工学と情報マネジメントに関するフォーラム（DEIM2024）』 言語処理学会第30回年次大会（NLP2024） 2024/3/11 - 2024/3/15 仲田明良, 狩野芳伸（2024）,「Style SimCSE: SNSユーザ同一性に基づく対照学習によるスタイル類似性を捉えた文ベクトルの獲得」 こう見ると，1年の間に4つの学会に参加していることがわかります． よく頑張った！！自分！！ 同じ研究テーマで複数回発表したわけではなく，それぞれ異なった研究テーマで発表を行いました． </description>
+    </item>
+    
+  </channel>
+</rss>
