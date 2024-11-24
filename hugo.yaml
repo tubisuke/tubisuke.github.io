@@ -12,7 +12,12 @@ outputs:
     - "HTML"
     - "RSS"
 
-Paginate: 3
+# Paginate: 3
+
+pagination:
+  pagerSize: 3
+
+
 enableRobotsTXT: true
 # disqusShortname: your-disqus-shortname
 # googleAnalytics: G-MEASUREMENT_ID
@@ -135,16 +140,18 @@ params:
     title: "ABOUT ME"
     image: "/images/ICON_2.png"
     content: |-
-      I am a 4th student in the Department of Information Science at Shizuoka University's Faculty of Informatics. 
+      静岡大学大学院　情報学専攻1年（M1）の仲田明良です．
 
-      I am currently doing research on natural language processing at [Kano Laboratory](https://kanolab.net) .
+      [狩野研究室](https://kanolab.net)に所属しており，専門分野は自然言語処理（NLP）です．
 
-    skills:
-      enable: true
-      title: "My skills are listed below:"
-      items:
-        - "Atcoder（[Max: 1091](https://atcoder.jp/users/tubi)）"
-        - "Kaggle (&#129351;0 &#129352;0 &#129353;1)"
+      **興味分野：**
+        - 文埋め込み
+        - SNS分析
+        - 政治応用
+
+      **主なスキル：**
+        - Atcoder（[Max: 1091](https://atcoder.jp/users/tubi)）
+        - Kaggle（🥇0 🥈0 🥉1）
 
   # Experience
   experience:
@@ -185,6 +192,8 @@ params:
         date: "2024"
         content: |-
           福畠汐音, <u>**仲田明良**</u>, 佐橋優人, 増川哲太, 三輪洋文, 野中尚人, 木下翔太郎, 岸本泰士郎, 五十嵐彰, 岡久太郎, 狩野芳伸（2024）,「STaMP: 個人の性格や政治的立場等の多面的特性と紐づくSNSデータの構築及び文章スタイルによる個人特性予測」,『言語処理学会第30回年次大会（NLP2024）』
+
+          [[paper]](https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/P2-2.pdf)              
       - title: "Style SimCSE: SNSユーザ同一性に基づく対照学習によるスタイル類似性を捉えた文ベクトルの獲得"
         date: "2024"
         content: |-
@@ -233,7 +242,7 @@ params:
   # Achievements
   achievements:
     enable: true
-    title: "AWARDS/CERTFIATES"
+    title: "AWARDS"
     items:
       - title: DEIM2024 学生プレゼンテーション賞
         content: 第16回データ工学と情報マネジメントに関するフォーラム（DEIM2024）
@@ -247,36 +256,71 @@ params:
       - title: NLP若手の会（YANS）第18回シンポジウム 奨励賞
         content: NLP若手の会（YANS）第18回シンポジウム
         url: https://yans.anlp.jp/entry/award
-      - title: 応用情報技術者試験(AP)合格
-        content: June 2021,合格率：24.0% 
-        url: https://www.ipa.go.jp/shiken/kubun/ap.html
-
       - title: 静岡大学 情報学シンポジウム2019 情報学部長賞
         content: 静岡大学 情報学シンポジウム2019
         url: https://www.inf.shizuoka.ac.jp/news/detail.html?CN=154405
-
       - title: 静岡大学 情報学シンポジウム2019 ジュニア部門優秀発表賞
         content: 静岡大学 情報学シンポジウム2019
         url: https://www.inf.shizuoka.ac.jp/news/detail.html?CN=154405
-        
+
+
+  # Certificates
+  certificates:
+    enable: true
+    title: "CERTIFICATES"
+    items:
+      - title: 応用情報技術者試験(AP)合格
+        content: June 2021,合格率：24.0% 
+        url: https://www.ipa.go.jp/shiken/kubun/ap.html
       - title: 情報技術検定1級合格
         content: July 2018,合格率：21.14%
         url: https://zenkoukyo.or.jp/web/content/uploads/60joho_kekka.pdf
-
       - title: 基本情報技術者試験(FE)合格
         content: May 2018,合格率：28.9%
         url: https://www.ipa.go.jp/shiken/kubun/fe.html
 
-        
+  # School Achievements
+  school:
+    enable: true
+    title: "SCHOOL"
+    items:
+      - title: "令和5年度 静岡大学学長表彰"
+        url: "https://www.shizuoka.ac.jp/news/detail.html?CN=9930"
+        content: |-
+          学術研究や課外活動等において特に顕著な業績を挙げた者に授与
+      - title: "令和5年度 浜松工業会学習奨励賞"
+        content: "学業成績に基づいた表彰"
+        url: "https://sanaru.org/aboutus/activity/"
         
   # projects
   projects:
     enable: true
     title: "PROJECTS"
     items:
-      - title: Shizuoka University CO-OP Site Convenience System
-        content: System for more convenient use of the Shizuoka University CO-OP e-money that "Campus Pay" using contactless IC card reader/writer "PaSoRi".
-        image: /images/projects/project01.jpg
+      - title: 位置情報に基づいた音楽推薦アプリ
+        content: Djangoを用いた図書館蔵書検索システムの改良
+        image: /images/projects/project04.jpg
+        badges:
+          - "Python"
+          - "Fast API"
+          - "GCP"
+          - "Swift"
+        links:
+          - icon: fas fa-info-circle
+            url: /blogs/post03/
+      - title: 図書館蔵書検索システムの改良
+        content: Djangoを用いた図書館蔵書検索システムの改良
+        image: /images/projects/project03.jpg
+        badges:
+          - "Python"
+          - "Django"
+          - "REST API"
+        links:
+          - icon: fas fa-info-circle
+            url: /blogs/post04/
+      - title: 静岡大学キャンパスペイ便利システム
+        content: Felicaカードのカードリーダーを用いた残価・履歴確認システムの構築
+        image: /images/projects/project02.jpg
         badges:
           - "Python"
           - "Javascipt"
@@ -284,7 +328,17 @@ params:
         links:
           - icon: fab fa-github
             url: https://github.com/tubisuke/CanpaspaySystem
-
+          - icon: fas fa-info-circle
+            url: /blogs/post01/
+      - title: 猫の迷路ゲーム
+        content: JavaFXを用いたGUIゲームの開発
+        image: /images/projects/project01.jpg
+        badges:
+          - "Java"
+        links:
+          - icon: fas fa-info-circle
+            url: /blogs/post02/
+      
   #Contact
   contact:
     enable: true

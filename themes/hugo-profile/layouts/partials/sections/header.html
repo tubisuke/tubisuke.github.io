@@ -103,6 +103,25 @@
                     </li>
                     {{ end }}
 
+                    {{ if and (.Site.Params.school.enable | default false) (not
+                        (.Site.Params.navbar.menus.disableSchool| default false)) }}
+                        <li class="nav-item navbar-text">
+                            <a class="nav-link" href="{{ .Site.BaseURL | relURL }}#school" aria-label="school">
+                                {{ .Site.Params.school.title | default "School" }}
+                            </a>
+                        </li>
+                        {{ end }}
+
+                    
+                    {{ if and (.Site.Params.certificates.enable | default false) (not
+                        (.Site.Params.navbar.menus.disableSchool| default false)) }}
+                        <li class="nav-item navbar-text">
+                            <a class="nav-link" href="{{ .Site.BaseURL | relURL }}#certificates" aria-label="certificates">
+                                {{ .Site.Params.certificates.title | default "Certificates" }}
+                            </a>
+                        </li>
+                        {{ end }}
+
                     {{ if and (.Site.Params.achievements.enable | default false) (not
                     (.Site.Params.navbar.menus.disableAchievements | default false)) }}
                     <li class="nav-item navbar-text">
