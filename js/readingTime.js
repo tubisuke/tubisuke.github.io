@@ -1,6 +1,6 @@
 function readingTime() {
   const text = document.querySelector("article").innerText;
-  const wpm = 225;
+  const wpm = 30;
   const words = text.trim().split(/\s+/).length;
   const time = Math.ceil(words / wpm);
 
