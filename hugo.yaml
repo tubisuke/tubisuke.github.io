@@ -138,7 +138,7 @@ params:
   about:
     enable: true
     title: "ABOUT ME"
-    image: "/images/ICON_2.png"
+    image: "/images/ICON_3.png"
     content: |-
       静岡大学大学院　情報学専攻1年（M1）の仲田明良です．
 
