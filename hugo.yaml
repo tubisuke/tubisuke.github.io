@@ -184,6 +184,10 @@ params:
     title: "PUBLICATIONS"
     index: false
     items:
+      - title: "SNSにおける投稿文とハッシュタグの共通埋め込み空間の構築"
+        date: "2025"
+        content: |-
+          <u>**仲田明良**</u>, 狩野芳伸（2025）,「SNSにおける投稿文とハッシュタグの共通埋め込み空間の構築」,『NLP若手の会（YANS）第20回シンポジウム』
       - title: "性別による違いに着目した日本の国会議員に対するオンラインハラスメントの分析"
         date: "2025"
         content: |-
